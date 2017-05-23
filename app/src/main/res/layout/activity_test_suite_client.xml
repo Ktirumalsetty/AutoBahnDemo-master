@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#028ec9"
+    android:orientation="vertical"
+    android:padding="12dip"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="16dip"
+        android:text="Autobahn WebSockets for Android"
+        android:textColor="#ffffff"
+        android:textSize="24dip"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fuzzing Server"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/lightgrey"></TextView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/wsuri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ws://192.168.1.128:9001"
+            android:textColor="@color/darkgrey"></EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Agent Identifier"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/lightgrey"></TextView>
+
+    <EditText
+        android:id="@+id/agent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AutobahnAndroid"
+        android:textColor="@color/darkgrey"></EditText>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="120dip"
+        android:layout_height="80dip"
+        android:layout_gravity="center"
+        android:layout_margin="16dip"
+        android:text="Start Tests"></Button>
+
+    <TextView
+        android:id="@+id/statusline"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Press button to start tests."
+        android:textColor="@color/lightgrey"
+        android:textSize="18dip" />
+</LinearLayout>

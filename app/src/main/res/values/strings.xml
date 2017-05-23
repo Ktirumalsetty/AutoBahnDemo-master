@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AutoBahnDemo</string>
+
+    <string name="button_text_websocket_gallery">WebSocket Gallery</string>
+    <string name="button_text_wamp_gallery">WAMP Gallery</string>
+
+</resources>
